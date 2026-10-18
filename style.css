@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(65, 63, 62);
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    text-align: center;
+    color: tan;
+    background-color: black;
+    border-radius: 10px;
+    padding:10px;
+}
+#submitBtn{
+    font-size: 15px;
+    border-radius: 5px;
+    transition:ease 0.3s ;
+}
+#submitBtn:hover{
+    background-color:rgb(18, 242, 7);
+    color:white;
+    padding: 5px auto;
+    font-size: large;
+}

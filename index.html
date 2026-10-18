@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Checkboxes</h1>
+    <p><input type="checkbox" id="pay"> I want to pay</p>
+    <p>Do you want to pay with cash or card:</p>
+    <input type="radio" id="Cash" name="payment">
+    <label for="Cash">Cash</label><br>
+    <input type="radio" id="Card" name="payment">
+    <label for="Card">Card</label><br>
+    <p>If card which card u want to use ?</p>
+    <input type="radio" id="visa" name="cardname">
+    <label for="visa">Visa</label><br>
+    <input type="radio" id="mastercard" name="cardname">
+    <label for="mastercard">MasterCard</label><br>
+    <input type="radio" id="Amex" name="cardname">
+    <label for="Amex">Amex</label><br><br>
+    <button type="submit" id="submitBtn">Submit</button>
+    <span>
+        <p id="payresult"></p>
+    </span>
+    <span>
+        <p id="result"></p>
+    </span>
+    <script src="script.js"></script>
+</body>
+</html>
